@@ -7,7 +7,7 @@ app.use('/static', express.static(path.join(__dirname, '../uploads')))
 app.use(cors());
 
 app.get('/',()=>{
-  console.log('hello)
+  console.log('hello')
 }
 
 const userController = require('./controllers/users')
