@@ -8,7 +8,7 @@ app.use(cors());
 
 app.get('/',()=>{
   console.log('hello')
-}
+})
 
 const userController = require('./controllers/users')
 app.use('/users', userController)
